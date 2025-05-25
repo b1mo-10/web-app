@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # 1. Import and Install Dependencies
-
-# In[1]:
-
-
-get_ipython().run_line_magic('pip', 'install tensorflow==2.4.1 tensorflow-gpu==2.4.1 opencv-python mediapipe sklearn matplotlib')
-
-
-# In[2]:
 
 
 import cv2
