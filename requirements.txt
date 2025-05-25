@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.15.0
+tensorflow>=2.16.1  # Updated to version compatible with Python 3.13
 opencv-python
 mediapipe
 scikit-learn
