@@ -1,6 +1,7 @@
 streamlit==1.45.1
-tensorflow==2.19.0  # Latest stable version that should work
-opencv-python-headless==4.9.0.80  # Use headless version for deployment
+--pre  # Allow pre-release versions
+tensorflow>=2.19.0rc0  # Use release candidate
+opencv-python-headless==4.9.0.80
 mediapipe==0.10.9
 scikit-learn==1.4.0
 matplotlib==3.8.0
